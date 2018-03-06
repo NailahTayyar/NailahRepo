@@ -65,14 +65,14 @@ At each node level, you can expand the conversation by adding nodes. If you add 
 
 Name the new node Handle Greetings. In the If bot recognizes field, change the value to #Greetings. The number sign (#) represents a prefix for intent. The condition is triggered when the Watson natural language classifier classifies the query as a greeting intent.
 
-**9-Add Response **
+**9-Add a Response**
 
 ![](https://github.com/nailahDev/Watson-chatbot/blob/master/Basic-Conversation-master/views/Chatbot-tutorial-pictures/5.png)
 
 The previous image also illustrates how to use the multiple responses pattern to avoid being repetitive. The bot can present different answers to the same query. You can allow the system to randomly select an answer from the list of potential responses.
 
 
-**10- Test your bot by clicking Ask Watson icon **
+**10-Test your bot**
 
 ## Web Application Template for Watson Conversation API Demonstration
 
@@ -92,7 +92,7 @@ var conversation = watson.conversation({
 });
 ```
 4. Get the workspace ID
-[workspace!]();
+[workspace!]()
 
 ```css
      var workspace = "<workspace_id>"; //replace with the workspace_id from service credential
